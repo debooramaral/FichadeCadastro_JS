@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css" media="all">
+        <script src="Enviar.js"></script>
+    <title>Ficha de Cadastro</title>
+</head>
+<body>
+    <form name="meu-form">
+        <h1>Entre em Contato</h1>
+        <h2>
+            <label for="nome">Nome</label>
+            <input type="text" id="nomeid" required="required" name="nome">
+        </h2>
+        <h3>
+            <label for="funcao">Função</label>
+            <input type="text" id="funcid" name="funcao">
+        </h3>
+        <h4>
+            <label for="email">email</label>
+            <input type="email" id="emailid" placeholder="id@ms.senac.br" name="email">
+        </h4>
+        <h5>
+            <label for="opiniao">Deixe sua Opinião</label>
+            <textarea></textarea>
+        </h5>
+    </form>
+    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar">
+</body>
+</html>
